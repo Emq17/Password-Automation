@@ -1,0 +1,38 @@
+import string 
+# Importing the 'string' module to access various string-related functions and constants
+import random 
+# Importing the 'random' module to generate random values and perform random operations 
+ 
+l_case = string.ascii_lowercase
+u_case = string.ascii_uppercase
+# Assigns a string containing all lowercase & uppercase letters of the alphabet to S1 and s2.
+num = string.digits
+# Assigns a string containing all digits 0-9 to s3.
+punct = string.punctuation
+# Assigns a string containing all punctuation characters to s4. 
+ 
+valid_input = False
+ 
+# Continue looping until valid input is provided
+while not valid_input:
+    try: 
+      # Prompt the user to enter the passoword length and convert it to an integer
+        password_length = int(input("Enter password length: "))
+      # Set valid input to True to exit the loop
+        valid_input = True
+    except ValueError:
+      # Handle the case when the user enters a non-numeric value 
+        print("Invalid input! Please enter a valid integer for the password length.")
+ 
+pin = [] # Creates an empty list named s
+pin.extend(list(l_case)) # Adds all lowercase letters to the list s
+pin.extend(list(u_case)) # Adds all uppercase letters to the list s
+pin.extend(list(num)) # Addds all digits to the list s
+pin.extend(list(punct)) # Adds all punctuation characters to the list s
+ 
+print ("Your password: ", end="") # Prints the message "Your password: " without a newline
+print ("".join(random.sample(pin, password_length))) 
+# Randomly selects characters from the list s, based on the specified length plen
+# Prints the resulting password
+
+
