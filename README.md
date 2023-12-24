@@ -1,3 +1,7 @@
+<p align="center">
+<img src="https://i.imgur.com/CEmxo0f.png" alt="Logo"/>
+</p>
+
 <h1 align="center">Password Automation</h1>
 
 - The task that I am trying to solve is to automate creating random passwords faster. All the user has to do is input the desired password length they need & the program will spit out random characters with a mixture of uppercase, lowercase letters, numbers & punctuation marks. This will have an output of a strong, diverse password. 
