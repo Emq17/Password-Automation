@@ -30,10 +30,17 @@ Display the password as the output
 
 (This simplified pseudocode maintains the key steps and logic of the program while removing some of the finer details, maintaining the English language, & creating an overall blueprint to how the program will be designed. This should provide a quick overview of the functionality in a simple yet concise enough form.)
 
+
 <h2></h2>
+<br>
 While testing the program, I have found that the limit to the possible characters that could be generated only goes up to 94 characters. While this error could be fixed by adding more variations or creativity to generating types of passwords, most websites do not need an influx of this amount of characters for creating passwords. So I left it be. 
+<br>
+<br>
+<br>
 
 ![Picture1](https://github.com/Emq17/Password-Automation/assets/147126755/2bbd0d9d-2283-4aa5-9a24-c6b5d5d3ba03)
+
+<br>
 
 After playing around with this simple program, everything seems to run smoothly as long as you stay underneath the character count of 95.
 This error simply makes sense due to limited characters. Not because of the program itself. 
@@ -49,6 +56,10 @@ while not valid_input:
     except ValueError:
         print("Invalid input! Please enter a valid integer for the password length.")”
 
+<br>
+
 ![Picture1](https://github.com/Emq17/Password-Automation/assets/147126755/2a806e0a-bfd7-42d3-928d-76ec8fdce810)
+
+<br>
 
 As you can see with above’s screenshot, I have inputted the letter “A” instead of an integer value & it successfully prompted the user instructions on what to do to generate the desired password length. 
