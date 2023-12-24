@@ -4,8 +4,9 @@
 
 <h1 align="center">Password Automation</h1>
 
-- The task that I am trying to solve is to automate creating random passwords faster. All the user has to do is input the desired password length they need & the program will spit out random characters with a mixture of uppercase, lowercase letters, numbers & punctuation marks. This will have an output of a strong, diverse password. 
-Scams & frauds are on the rise. Online security is becoming a must in today’s generation. Some people lack creativity or are just lazy in choosing passwords that doesn’t relate to their names, birthdays, pet names, etc. This program quickly solves this & by automating it, can help save people time and effort while ensuring that it meets the complexity requirements of certain websites.
+- The task that I am trying to solve is to automate creating random passwords faster.
+- All the user has to do is input the desired password length they need & the program will spit out random characters with a mixture of uppercase, lowercase letters, numbers & punctuation marks. This will produce an output of a strong, diverse password. 
+- Scams & frauds are on the rise. Online security is becoming a must in today’s generation. Some people lack creativity or are just lazy in choosing passwords that doesn’t relate to their names, birthdays, pet names, etc. This program quickly solves this & by automating it, can help save people time and effort while ensuring that it meets the complexity requirements of certain websites.
 
 
 <h2>Pseudocode:</h2>
